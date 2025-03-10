@@ -1,0 +1,6 @@
+<div>
+  <label>Payee Name</label>
+  <input (input)="onNameChange($any($event.target).value)" />
+</div>
+
+{{ name | titlecase }}
